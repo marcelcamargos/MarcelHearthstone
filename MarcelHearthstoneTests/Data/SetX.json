@@ -1,0 +1,15 @@
+{
+   "cardId":"Story_05_GreymaneMinionDormant",
+   "dbfId":"67128",
+   "name":"Genn Greymane",
+   "cardSet":"Madness At The Darkmoon Faire",
+   "type":"Minion",
+   "cost":11,
+   "attack":0,
+   "health":1,
+   "text":"<b>Dormant</b>",
+   "elite":true,
+   "playerClass":"Neutral",
+   "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8993e2a16c19d2446fc516da6e82c3982723f25767a813285b0067eb92524a28.png",
+   "locale":"enUS"
+}

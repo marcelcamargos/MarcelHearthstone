@@ -1,0 +1,13 @@
+{
+    "cardId":"TB_BaconShop_HERO_16",
+    "dbfId":"57944",
+    "name":"A. F. Kay",
+    "cardSet":"Battlegrounds",
+    "type":"Hero",
+    "faction":"Neutral",
+    "health":40,
+    "playerClass":"Neutral",
+    "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4fb9aa0db87d27429255ecce8937828e8f0b3a06f3ef30c6017df625ae457a87.png",
+    "imgGold":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5bf48e7b70d42f2e04a2ea4b91815abb44b6e2efb9b9ba2aeef9a7000205e84.png",
+    "locale":"enUS"
+}

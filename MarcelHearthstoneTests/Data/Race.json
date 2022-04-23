@@ -1,0 +1,15 @@
+{
+    "cardId":"LT21_05H_01",
+    "dbfId":"72791",
+    "name":"Cookie, the Cook",
+    "cardSet":"Mercenaries",
+    "type":"Minion",
+    "faction":"Neutral",
+    "rarity":"Rare",
+    "cost":0,
+    "attack":1,
+    "health":8,
+    "race":"Murloc",
+    "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f676ddac53c268027ece1fe84a90a8dc645296c01ff7beac64fb856c78cd02f7.png",
+    "locale":"enUS"
+}

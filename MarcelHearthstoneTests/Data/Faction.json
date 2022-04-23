@@ -1,0 +1,24 @@
+{
+    "cardId":"VAN_CS2_188",
+    "dbfId":"69761",
+    "name":"Abusive Sergeant",
+    "cardSet":"Vanilla",
+    "type":"Minion",
+    "faction":"Alliance",
+    "rarity":"Common",
+    "cost":1,
+    "attack":2,
+    "health":1,
+    "text":"<b>Battlecry:</b> Give a minion +2_Attack this turn.",
+    "flavor":"ADD ME TO YOUR DECK, MAGGOT!",
+    "artist":"Luca Zontini",
+    "collectible":true,
+    "playerClass":"Neutral",
+    "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e1cf5550e461e7b3593afe17c04289f859cdbb19214eb8f01419dbd17bc70ae.png",
+    "locale":"enUS",
+    "mechanics":[
+        {
+            "name":"Battlecry"
+        }
+    ]
+}

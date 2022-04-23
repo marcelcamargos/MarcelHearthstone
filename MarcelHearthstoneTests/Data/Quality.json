@@ -1,0 +1,15 @@
+{
+    "cardId":"VAN_GAME_002",
+    "dbfId":"68482",
+    "name":"Avatar of the Coin",
+    "cardSet":"Vanilla",
+    "type":"Minion",
+    "rarity":"Free",
+    "cost":0,
+    "attack":1,
+    "health":1,
+    "text":"<i>You lost the coin flip, but gained a friend.</i>",
+    "playerClass":"Neutral",
+    "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/420a6028513a6c4793600247cad123a2e5b77aaaa99459d2f286a57e38703986.png",
+    "locale":"enUS"
+}

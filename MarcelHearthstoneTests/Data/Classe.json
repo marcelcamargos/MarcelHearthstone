@@ -1,0 +1,13 @@
+{
+    "cardId":"Story_03_Zarzhet",
+    "dbfId":"64758",
+    "name":"Underqueen Zarzhet",
+    "cardSet":"Madness At The Darkmoon Faire",
+    "type":"Hero",
+    "faction":"Neutral",
+    "health":30,
+    "text":"<i>The undead nerubians were quick to attack the Horde... and their peons.</i>",
+    "playerClass":"Death Knight",
+    "img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/faccebeea1dbcf52a13f5cc74ef12d5d9047becc04deec204b61a990f7d01606.png",
+    "locale":"enUS"
+}

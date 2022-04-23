@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B425C7A281200DD0085BEDB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C79281200DD0085BEDB /* Info.swift */; };
+		8B425C7C281200FA0085BEDB /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7B281200FA0085BEDB /* Classe.swift */; };
+		8B425C7E281201210085BEDB /* SetX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7D281201210085BEDB /* SetX.swift */; };
+		8B425C80281201800085BEDB /* TypeX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7F281201800085BEDB /* TypeX.swift */; };
+		8B425C822812019C0085BEDB /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C812812019C0085BEDB /* Faction.swift */; };
+		8B425C84281201B70085BEDB /* Quality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C83281201B70085BEDB /* Quality.swift */; };
+		8B425C86281201D00085BEDB /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C85281201D00085BEDB /* Race.swift */; };
+		8B425C932812088C0085BEDB /* CardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C922812088C0085BEDB /* CardResource.swift */; };
+		8B425C9C28123FCC0085BEDB /* HttpViability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9B28123FCC0085BEDB /* HttpViability.swift */; };
+		8B425C9E28123FEB0085BEDB /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */; };
+		8B425CA02812401A0085BEDB /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9F2812401A0085BEDB /* CardViewModel.swift */; };
+		8B425CA4281259FC0085BEDB /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA3281259FC0085BEDB /* Loading.swift */; };
+		8B425CA8281374780085BEDB /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA7281374780085BEDB /* UIImageView.swift */; };
+		8B425CAA2813BDCE0085BEDB /* APIEndpointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */; };
+		8B425CAF28144CD00085BEDB /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CAE28144CD00085BEDB /* Data+Extensions.swift */; };
+		8B425CB128144D120085BEDB /* DecodableTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CB028144D120085BEDB /* DecodableTestCase.swift */; };
+		8B425CB828144E960085BEDB /* ClasseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CB728144E960085BEDB /* ClasseTests.swift */; };
+		8B425CBA2814545E0085BEDB /* Info.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CB92814545E0085BEDB /* Info.json */; };
+		8B425CBC281454740085BEDB /* Classe.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CBB281454740085BEDB /* Classe.json */; };
+		8B425CCE281455CD0085BEDB /* InfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CCD281455CD0085BEDB /* InfoTests.swift */; };
+		8B425CD2281488810085BEDB /* SetX.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CD1281488810085BEDB /* SetX.json */; };
+		8B425CD6281488AE0085BEDB /* TypeX.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CD5281488AE0085BEDB /* TypeX.json */; };
+		8B425CD8281488C50085BEDB /* Faction.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CD7281488C50085BEDB /* Faction.json */; };
+		8B425CDA281488DE0085BEDB /* Quality.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CD9281488DE0085BEDB /* Quality.json */; };
+		8B425CDC281489000085BEDB /* Race.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B425CDB281489000085BEDB /* Race.json */; };
+		8B8C33F328148A6B00A94C39 /* SetXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33F228148A6B00A94C39 /* SetXTests.swift */; };
+		8B8C33F728148EB300A94C39 /* TypeXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33F628148EB300A94C39 /* TypeXTests.swift */; };
+		8B8C33F92814900700A94C39 /* FactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33F82814900700A94C39 /* FactionTests.swift */; };
+		8B8C33FB2814901700A94C39 /* QualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33FA2814901700A94C39 /* QualityTests.swift */; };
+		8B8C33FD2814903600A94C39 /* RaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33FC2814903600A94C39 /* RaceTests.swift */; };
+		8B9C4B1C280B877B00831752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B1B280B877B00831752 /* AppDelegate.swift */; };
+		8B9C4B20280B877B00831752 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B1F280B877B00831752 /* MainViewController.swift */; };
+		8B9C4B26280B877B00831752 /* MarcelHearthstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B24280B877B00831752 /* MarcelHearthstone.xcdatamodeld */; };
+		8B9C4B28280B877D00831752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B27280B877D00831752 /* Assets.xcassets */; };
+		8B9C4B2B280B877D00831752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B29280B877D00831752 /* LaunchScreen.storyboard */; };
+		8B9C4B36280B877E00831752 /* MarcelHearthstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */; };
+		8B9C4B40280B877E00831752 /* MarcelHearthstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */; };
+		8B9C4B42280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */; };
+		8B9C4B59280B900600831752 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B58280B900600831752 /* Play.swift */; };
+		8B9C4B5D280B92F000831752 /* CollectionViewCellCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */; };
+		8B9C4B62280B979B00831752 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B60280B979B00831752 /* TableViewCell.swift */; };
+		8B9C4B63280B979B00831752 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B61280B979B00831752 /* TableViewCell.xib */; };
+		8B9C4B66280B97C300831752 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B64280B97C300831752 /* CollectionViewCell.swift */; };
+		8B9C4B67280B97C300831752 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B65280B97C300831752 /* CollectionViewCell.xib */; };
+		8B9C4B69280B9D2800831752 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B68280B9D2800831752 /* Extensions.swift */; };
+		8B9C4B6B280B9DA300831752 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B6A280B9DA300831752 /* DetailsViewController.swift */; };
+		8B9C4B6D280BA14E00831752 /* TableViewCellCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */; };
+		8B9C4B6F280C6E1500831752 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B6E280C6E1500831752 /* Card.swift */; };
+		8B9C4B76280CACB300831752 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B75280CACB300831752 /* CardCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9C4B32280B877E00831752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9C4B10280B877B00831752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9C4B17280B877B00831752;
+			remoteInfo = MarcelHearthstone;
+		};
+		8B9C4B3C280B877E00831752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9C4B10280B877B00831752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9C4B17280B877B00831752;
+			remoteInfo = MarcelHearthstone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B425C79281200DD0085BEDB /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		8B425C7B281200FA0085BEDB /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
+		8B425C7D281201210085BEDB /* SetX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetX.swift; sourceTree = "<group>"; };
+		8B425C7F281201800085BEDB /* TypeX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeX.swift; sourceTree = "<group>"; };
+		8B425C812812019C0085BEDB /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		8B425C83281201B70085BEDB /* Quality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quality.swift; sourceTree = "<group>"; };
+		8B425C85281201D00085BEDB /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		8B425C922812088C0085BEDB /* CardResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResource.swift; sourceTree = "<group>"; };
+		8B425C9B28123FCC0085BEDB /* HttpViability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpViability.swift; sourceTree = "<group>"; };
+		8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		8B425C9F2812401A0085BEDB /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		8B425CA3281259FC0085BEDB /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		8B425CA7281374780085BEDB /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointsTests.swift; sourceTree = "<group>"; };
+		8B425CAE28144CD00085BEDB /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		8B425CB028144D120085BEDB /* DecodableTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableTestCase.swift; sourceTree = "<group>"; };
+		8B425CB728144E960085BEDB /* ClasseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseTests.swift; sourceTree = "<group>"; };
+		8B425CB92814545E0085BEDB /* Info.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Info.json; sourceTree = "<group>"; };
+		8B425CBB281454740085BEDB /* Classe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Classe.json; sourceTree = "<group>"; };
+		8B425CCD281455CD0085BEDB /* InfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTests.swift; sourceTree = "<group>"; };
+		8B425CD1281488810085BEDB /* SetX.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SetX.json; sourceTree = "<group>"; };
+		8B425CD5281488AE0085BEDB /* TypeX.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TypeX.json; sourceTree = "<group>"; };
+		8B425CD7281488C50085BEDB /* Faction.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Faction.json; sourceTree = "<group>"; };
+		8B425CD9281488DE0085BEDB /* Quality.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quality.json; sourceTree = "<group>"; };
+		8B425CDB281489000085BEDB /* Race.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Race.json; sourceTree = "<group>"; };
+		8B8C33F228148A6B00A94C39 /* SetXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetXTests.swift; sourceTree = "<group>"; };
+		8B8C33F628148EB300A94C39 /* TypeXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeXTests.swift; sourceTree = "<group>"; };
+		8B8C33F82814900700A94C39 /* FactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionTests.swift; sourceTree = "<group>"; };
+		8B8C33FA2814901700A94C39 /* QualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityTests.swift; sourceTree = "<group>"; };
+		8B8C33FC2814903600A94C39 /* RaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTests.swift; sourceTree = "<group>"; };
+		8B9C4B18280B877B00831752 /* MarcelHearthstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcelHearthstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9C4B1B280B877B00831752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B9C4B1F280B877B00831752 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8B9C4B25280B877B00831752 /* MarcelHearthstone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarcelHearthstone.xcdatamodel; sourceTree = "<group>"; };
+		8B9C4B27280B877D00831752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9C4B2A280B877D00831752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B9C4B2C280B877D00831752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneTests.swift; sourceTree = "<group>"; };
+		8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITests.swift; sourceTree = "<group>"; };
+		8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B9C4B58280B900600831752 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCardModel.swift; sourceTree = "<group>"; };
+		8B9C4B60280B979B00831752 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8B9C4B61280B979B00831752 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		8B9C4B64280B97C300831752 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8B9C4B65280B97C300831752 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		8B9C4B68280B9D2800831752 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8B9C4B6A280B9DA300831752 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCardModel.swift; sourceTree = "<group>"; };
+		8B9C4B6E280C6E1500831752 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8B9C4B75280CACB300831752 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9C4B15280B877B00831752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B2E280B877E00831752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B38280B877E00831752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B425C87281202130085BEDB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C9B28123FCC0085BEDB /* HttpViability.swift */,
+				8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B425C912812086D0085BEDB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C922812088C0085BEDB /* CardResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B425CAB28144C720085BEDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CB728144E960085BEDB /* ClasseTests.swift */,
+				8B425CCD281455CD0085BEDB /* InfoTests.swift */,
+				8B8C33F228148A6B00A94C39 /* SetXTests.swift */,
+				8B8C33F628148EB300A94C39 /* TypeXTests.swift */,
+				8B8C33F82814900700A94C39 /* FactionTests.swift */,
+				8B8C33FA2814901700A94C39 /* QualityTests.swift */,
+				8B8C33FC2814903600A94C39 /* RaceTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B425CAC28144C790085BEDB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CAE28144CD00085BEDB /* Data+Extensions.swift */,
+				8B425CB028144D120085BEDB /* DecodableTestCase.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B425CAD28144C7F0085BEDB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CB92814545E0085BEDB /* Info.json */,
+				8B425CBB281454740085BEDB /* Classe.json */,
+				8B425CD1281488810085BEDB /* SetX.json */,
+				8B425CD5281488AE0085BEDB /* TypeX.json */,
+				8B425CD7281488C50085BEDB /* Faction.json */,
+				8B425CD9281488DE0085BEDB /* Quality.json */,
+				8B425CDB281489000085BEDB /* Race.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8B425CB228144D670085BEDB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8B9C4B0F280B877B00831752 = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B1A280B877B00831752 /* MarcelHearthstone */,
+				8B9C4B34280B877E00831752 /* MarcelHearthstoneTests */,
+				8B9C4B3E280B877E00831752 /* MarcelHearthstoneUITests */,
+				8B9C4B19280B877B00831752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9C4B19280B877B00831752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B18280B877B00831752 /* MarcelHearthstone.app */,
+				8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */,
+				8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9C4B1A280B877B00831752 /* MarcelHearthstone */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C912812086D0085BEDB /* Resource */,
+				8B425C87281202130085BEDB /* Service */,
+				8B9C4B57280B8FF500831752 /* Supporting Files */,
+				8B9C4B56280B8DC700831752 /* View */,
+				8B9C4B1F280B877B00831752 /* MainViewController.swift */,
+				8B9C4B6A280B9DA300831752 /* DetailsViewController.swift */,
+				8B9C4B55280B8DBB00831752 /* ViewModel */,
+				8B9C4B54280B8DB000831752 /* Model */,
+				8B9C4B27280B877D00831752 /* Assets.xcassets */,
+				8B9C4B29280B877D00831752 /* LaunchScreen.storyboard */,
+				8B9C4B2C280B877D00831752 /* Info.plist */,
+				8B9C4B24280B877B00831752 /* MarcelHearthstone.xcdatamodeld */,
+			);
+			path = MarcelHearthstone;
+			sourceTree = "<group>";
+		};
+		8B9C4B34280B877E00831752 /* MarcelHearthstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CB228144D670085BEDB /* Network */,
+				8B425CAD28144C7F0085BEDB /* Data */,
+				8B425CAC28144C790085BEDB /* Helpers */,
+				8B425CAB28144C720085BEDB /* Model */,
+				8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */,
+			);
+			path = MarcelHearthstoneTests;
+			sourceTree = "<group>";
+		};
+		8B9C4B3E280B877E00831752 /* MarcelHearthstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */,
+				8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */,
+			);
+			path = MarcelHearthstoneUITests;
+			sourceTree = "<group>";
+		};
+		8B9C4B54280B8DB000831752 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */,
+				8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */,
+				8B9C4B6E280C6E1500831752 /* Card.swift */,
+				8B425C79281200DD0085BEDB /* Info.swift */,
+				8B425C7B281200FA0085BEDB /* Classe.swift */,
+				8B425C7D281201210085BEDB /* SetX.swift */,
+				8B425C7F281201800085BEDB /* TypeX.swift */,
+				8B425C812812019C0085BEDB /* Faction.swift */,
+				8B425C83281201B70085BEDB /* Quality.swift */,
+				8B425C85281201D00085BEDB /* Race.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B9C4B55280B8DBB00831752 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C9F2812401A0085BEDB /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B9C4B56280B8DC700831752 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B70280C6E6600831752 /* CardCollectionCell */,
+				8B9C4B5A280B902500831752 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B9C4B57280B8FF500831752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B58280B900600831752 /* Play.swift */,
+				8B9C4B68280B9D2800831752 /* Extensions.swift */,
+				8B9C4B1B280B877B00831752 /* AppDelegate.swift */,
+				8B425CA3281259FC0085BEDB /* Loading.swift */,
+				8B425CA7281374780085BEDB /* UIImageView.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9C4B5A280B902500831752 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B5B280B903D00831752 /* CollectionViewCell */,
+				8B9C4B60280B979B00831752 /* TableViewCell.swift */,
+				8B9C4B61280B979B00831752 /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8B9C4B5B280B903D00831752 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B64280B97C300831752 /* CollectionViewCell.swift */,
+				8B9C4B65280B97C300831752 /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8B9C4B70280C6E6600831752 /* CardCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B75280CACB300831752 /* CardCollectionViewCell.swift */,
+			);
+			path = CardCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9C4B17280B877B00831752 /* MarcelHearthstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9C4B45280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstone" */;
+			buildPhases = (
+				8B9C4B14280B877B00831752 /* Sources */,
+				8B9C4B15280B877B00831752 /* Frameworks */,
+				8B9C4B16280B877B00831752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarcelHearthstone;
+			productName = MarcelHearthstone;
+			productReference = 8B9C4B18280B877B00831752 /* MarcelHearthstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9C4B30280B877E00831752 /* MarcelHearthstoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9C4B48280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneTests" */;
+			buildPhases = (
+				8B9C4B2D280B877E00831752 /* Sources */,
+				8B9C4B2E280B877E00831752 /* Frameworks */,
+				8B9C4B2F280B877E00831752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9C4B33280B877E00831752 /* PBXTargetDependency */,
+			);
+			name = MarcelHearthstoneTests;
+			productName = MarcelHearthstoneTests;
+			productReference = 8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B9C4B3A280B877E00831752 /* MarcelHearthstoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9C4B4B280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */;
+			buildPhases = (
+				8B9C4B37280B877E00831752 /* Sources */,
+				8B9C4B38280B877E00831752 /* Frameworks */,
+				8B9C4B39280B877E00831752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9C4B3D280B877E00831752 /* PBXTargetDependency */,
+			);
+			name = MarcelHearthstoneUITests;
+			productName = MarcelHearthstoneUITests;
+			productReference = 8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9C4B10280B877B00831752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B9C4B17280B877B00831752 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8B9C4B30280B877E00831752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B9C4B17280B877B00831752;
+					};
+					8B9C4B3A280B877E00831752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B9C4B17280B877B00831752;
+					};
+				};
+			};
+			buildConfigurationList = 8B9C4B13280B877B00831752 /* Build configuration list for PBXProject "MarcelHearthstone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9C4B0F280B877B00831752;
+			productRefGroup = 8B9C4B19280B877B00831752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9C4B17280B877B00831752 /* MarcelHearthstone */,
+				8B9C4B30280B877E00831752 /* MarcelHearthstoneTests */,
+				8B9C4B3A280B877E00831752 /* MarcelHearthstoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9C4B16280B877B00831752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9C4B2B280B877D00831752 /* LaunchScreen.storyboard in Resources */,
+				8B9C4B63280B979B00831752 /* TableViewCell.xib in Resources */,
+				8B9C4B67280B97C300831752 /* CollectionViewCell.xib in Resources */,
+				8B9C4B28280B877D00831752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B2F280B877E00831752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B425CD6281488AE0085BEDB /* TypeX.json in Resources */,
+				8B425CDA281488DE0085BEDB /* Quality.json in Resources */,
+				8B425CD8281488C50085BEDB /* Faction.json in Resources */,
+				8B425CDC281489000085BEDB /* Race.json in Resources */,
+				8B425CBC281454740085BEDB /* Classe.json in Resources */,
+				8B425CBA2814545E0085BEDB /* Info.json in Resources */,
+				8B425CD2281488810085BEDB /* SetX.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B39280B877E00831752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9C4B14280B877B00831752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B425C80281201800085BEDB /* TypeX.swift in Sources */,
+				8B9C4B5D280B92F000831752 /* CollectionViewCellCardModel.swift in Sources */,
+				8B9C4B62280B979B00831752 /* TableViewCell.swift in Sources */,
+				8B9C4B66280B97C300831752 /* CollectionViewCell.swift in Sources */,
+				8B425C7A281200DD0085BEDB /* Info.swift in Sources */,
+				8B425C7C281200FA0085BEDB /* Classe.swift in Sources */,
+				8B425CA8281374780085BEDB /* UIImageView.swift in Sources */,
+				8B9C4B6D280BA14E00831752 /* TableViewCellCardModel.swift in Sources */,
+				8B425C9E28123FEB0085BEDB /* APIEndpoints.swift in Sources */,
+				8B9C4B76280CACB300831752 /* CardCollectionViewCell.swift in Sources */,
+				8B425C7E281201210085BEDB /* SetX.swift in Sources */,
+				8B425C932812088C0085BEDB /* CardResource.swift in Sources */,
+				8B9C4B6F280C6E1500831752 /* Card.swift in Sources */,
+				8B425C822812019C0085BEDB /* Faction.swift in Sources */,
+				8B425CA02812401A0085BEDB /* CardViewModel.swift in Sources */,
+				8B9C4B6B280B9DA300831752 /* DetailsViewController.swift in Sources */,
+				8B9C4B20280B877B00831752 /* MainViewController.swift in Sources */,
+				8B425C84281201B70085BEDB /* Quality.swift in Sources */,
+				8B9C4B69280B9D2800831752 /* Extensions.swift in Sources */,
+				8B9C4B59280B900600831752 /* Play.swift in Sources */,
+				8B9C4B1C280B877B00831752 /* AppDelegate.swift in Sources */,
+				8B425C9C28123FCC0085BEDB /* HttpViability.swift in Sources */,
+				8B425C86281201D00085BEDB /* Race.swift in Sources */,
+				8B425CA4281259FC0085BEDB /* Loading.swift in Sources */,
+				8B9C4B26280B877B00831752 /* MarcelHearthstone.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B2D280B877E00831752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33F728148EB300A94C39 /* TypeXTests.swift in Sources */,
+				8B8C33FD2814903600A94C39 /* RaceTests.swift in Sources */,
+				8B8C33FB2814901700A94C39 /* QualityTests.swift in Sources */,
+				8B425CAF28144CD00085BEDB /* Data+Extensions.swift in Sources */,
+				8B425CCE281455CD0085BEDB /* InfoTests.swift in Sources */,
+				8B8C33F328148A6B00A94C39 /* SetXTests.swift in Sources */,
+				8B8C33F92814900700A94C39 /* FactionTests.swift in Sources */,
+				8B425CB128144D120085BEDB /* DecodableTestCase.swift in Sources */,
+				8B425CB828144E960085BEDB /* ClasseTests.swift in Sources */,
+				8B9C4B36280B877E00831752 /* MarcelHearthstoneTests.swift in Sources */,
+				8B425CAA2813BDCE0085BEDB /* APIEndpointsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9C4B37280B877E00831752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9C4B42280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */,
+				8B9C4B40280B877E00831752 /* MarcelHearthstoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B9C4B33280B877E00831752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
+			targetProxy = 8B9C4B32280B877E00831752 /* PBXContainerItemProxy */;
+		};
+		8B9C4B3D280B877E00831752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
+			targetProxy = 8B9C4B3C280B877E00831752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B9C4B29280B877D00831752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9C4B2A280B877D00831752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B9C4B43280B877E00831752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B9C4B44280B877E00831752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9C4B46280B877E00831752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarcelHearthstone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B9C4B47280B877E00831752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarcelHearthstone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B9C4B49280B877E00831752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarcelHearthstone.app/MarcelHearthstone";
+			};
+			name = Debug;
+		};
+		8B9C4B4A280B877E00831752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarcelHearthstone.app/MarcelHearthstone";
+			};
+			name = Release;
+		};
+		8B9C4B4C280B877E00831752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarcelHearthstone;
+			};
+			name = Debug;
+		};
+		8B9C4B4D280B877E00831752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarcelHearthstone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9C4B13280B877B00831752 /* Build configuration list for PBXProject "MarcelHearthstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9C4B43280B877E00831752 /* Debug */,
+				8B9C4B44280B877E00831752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9C4B45280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9C4B46280B877E00831752 /* Debug */,
+				8B9C4B47280B877E00831752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9C4B48280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9C4B49280B877E00831752 /* Debug */,
+				8B9C4B4A280B877E00831752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9C4B4B280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9C4B4C280B877E00831752 /* Debug */,
+				8B9C4B4D280B877E00831752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B9C4B24280B877B00831752 /* MarcelHearthstone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B9C4B25280B877B00831752 /* MarcelHearthstone.xcdatamodel */,
+			);
+			currentVersion = 8B9C4B25280B877B00831752 /* MarcelHearthstone.xcdatamodel */;
+			path = MarcelHearthstone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B9C4B10280B877B00831752 /* Project object */;
+}
