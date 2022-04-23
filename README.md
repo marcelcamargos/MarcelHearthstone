@@ -13,12 +13,6 @@ Abaixo, segue um overview do que foi criado.
 
 2) Após escolher um card da tela inicial:
 
-2.1) Progresso da chamada do endpoint:
-
-![](https://github.com/marcelcamargos/MarcelHearthstone/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202022-04-23%20at%2019.12.28.png)
-
-2.2) Chamada do endpoint concluída:
-
 ![](https://github.com/marcelcamargos/MarcelHearthstone/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202022-04-23%20at%2019.12.36.png)
 
 3) Estrutura geral do projeto:
