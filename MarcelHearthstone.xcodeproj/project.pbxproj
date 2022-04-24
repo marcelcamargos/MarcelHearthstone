@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */; };
 		1080EAE22814D5E80016FAB3 /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */; };
 		8B425C7A281200DD0085BEDB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C79281200DD0085BEDB /* Info.swift */; };
 		8B425C7C281200FA0085BEDB /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7B281200FA0085BEDB /* Classe.swift */; };
@@ -77,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
 		1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTests.swift; sourceTree = "<group>"; };
 		8B425C79281200DD0085BEDB /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		8B425C7B281200FA0085BEDB /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			children = (
 				8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */,
 				8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */,
+				1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */,
 			);
 			path = MarcelHearthstoneUITests;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 			files = (
 				8B9C4B42280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */,
 				8B9C4B40280B877E00831752 /* MarcelHearthstoneUITests.swift in Sources */,
+				1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

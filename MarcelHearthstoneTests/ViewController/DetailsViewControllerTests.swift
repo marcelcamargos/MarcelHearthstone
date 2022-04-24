@@ -36,7 +36,7 @@ class DetailsViewControllerTests: XCTestCase {
         URLSession.shared.dataTask(with: request as URLRequest) { (responseData, httpUrlResponse, error) in
             
             if(error == nil && responseData != nil && responseData?.count != 0) {
-                guard let image = UIImage(data: responseData ?? Data()) else {
+                guard let _ = UIImage(data: responseData ?? Data()) else {
                     XCTFail()
                     return
                 }
