@@ -2,7 +2,7 @@
 
 Esse é um projeto sobre o jogo de cartas online Hearthstone.
 
-Para o desenvolvimento desse projeto, foram considerados o uso de alguns elementos, tais como testes unitários; Cache das imagens; Consumo da API de forma nativa; Swift +5.0; As telas e elementos foram feitos utilizando xib e view code; Utilização de autolayout; Compatibilidade com iOS 11.
+Para o desenvolvimento desse projeto, foram considerados o uso de alguns elementos, tais como testes unitários, cache das imagens, consumo de API de forma nativa, Swift +5.0, utilização de xib e view code, uso de autolayout e compatibilidade com iOS 11.
 
 Abaixo, segue um overview do que foi criado.
 
