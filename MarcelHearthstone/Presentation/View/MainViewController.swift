@@ -41,7 +41,7 @@ class MainViewController: UIViewController {
     var qualities: [String] = []
     var races: [String] = []
     
-    private var cardViewModel = CardViewModel()
+    private var cardViewModel = MainViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

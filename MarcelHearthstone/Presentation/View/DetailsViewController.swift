@@ -55,7 +55,7 @@ class DetailsViewController: UIViewController {
     var qualitiesImg: [String] = []
     var racesImg: [String] = []
     
-    private var cardViewModel = CardViewModel()
+    private var detailsViewModel = DetailsViewModel()
     var container: UIView = UIView()
     var loadingView: UIView = UIView()
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
@@ -147,7 +147,7 @@ class DetailsViewController: UIViewController {
     
     func getClasses(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "classes", param: param, resultType: [Classe].self) { [self] (classe, error) in
+        detailsViewModel.callCardApi(resource: "classes", param: param, resultType: [Classe].self) { [self] (classe, error) in
             for clazz in classe {
                 if let clz = clazz.img {
                     self.classesImg.append(clz)
@@ -166,7 +166,7 @@ class DetailsViewController: UIViewController {
 
     func getSets(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "sets", param: param, resultType: [SetX].self) { [self] (sets, error) in
+        detailsViewModel.callCardApi(resource: "sets", param: param, resultType: [SetX].self) { [self] (sets, error) in
             for setz in sets {
                 if let stz = setz.img {
                     self.setsImg.append(stz)
@@ -185,7 +185,7 @@ class DetailsViewController: UIViewController {
     
     func getTypes(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "types", param: param, resultType: [TypeX].self) { [self] (types, error) in
+        detailsViewModel.callCardApi(resource: "types", param: param, resultType: [TypeX].self) { [self] (types, error) in
             for typex in types {
                 if let tpx = typex.img {
                     self.typesImg.append(tpx)
@@ -204,7 +204,7 @@ class DetailsViewController: UIViewController {
 
     func getFactions(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "factions", param: param, resultType: [Faction].self) { [self] (factions, error) in
+        detailsViewModel.callCardApi(resource: "factions", param: param, resultType: [Faction].self) { [self] (factions, error) in
             for faction in factions {
                 if let fct = faction.img {
                     self.factionsImg.append(fct)
@@ -223,7 +223,7 @@ class DetailsViewController: UIViewController {
 
     func getQualities(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "qualities", param: param, resultType: [Quality].self) { [self] (qualities, error) in
+        detailsViewModel.callCardApi(resource: "qualities", param: param, resultType: [Quality].self) { [self] (qualities, error) in
             for quality in qualities {
                 if let qlt = quality.img {
                     self.qualitiesImg.append(qlt)
@@ -242,7 +242,7 @@ class DetailsViewController: UIViewController {
 
     func getRaces(param: String) {
         Loading.showActivityIndicator(uiView: self.view)
-        cardViewModel.callCardApi(resource: "races", param: param, resultType: [Race].self) { [self] (races, error) in
+        detailsViewModel.callCardApi(resource: "races", param: param, resultType: [Race].self) { [self] (races, error) in
             for race in races {
                 if let rce = race.img {
                     self.racesImg.append(rce)

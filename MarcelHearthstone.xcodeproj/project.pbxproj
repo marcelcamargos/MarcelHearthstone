@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */; };
+		1066A9B52816C19D00BCAA1D /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */; };
 		1080EAE22814D5E80016FAB3 /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */; };
 		8B425C7A281200DD0085BEDB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C79281200DD0085BEDB /* Info.swift */; };
 		8B425C7C281200FA0085BEDB /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7B281200FA0085BEDB /* Classe.swift */; };
@@ -19,7 +20,7 @@
 		8B425C932812088C0085BEDB /* CardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C922812088C0085BEDB /* CardResource.swift */; };
 		8B425C9C28123FCC0085BEDB /* HttpViability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9B28123FCC0085BEDB /* HttpViability.swift */; };
 		8B425C9E28123FEB0085BEDB /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */; };
-		8B425CA02812401A0085BEDB /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9F2812401A0085BEDB /* CardViewModel.swift */; };
+		8B425CA02812401A0085BEDB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C9F2812401A0085BEDB /* MainViewModel.swift */; };
 		8B425CA4281259FC0085BEDB /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA3281259FC0085BEDB /* Loading.swift */; };
 		8B425CA8281374780085BEDB /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA7281374780085BEDB /* UIImageView.swift */; };
 		8B425CAA2813BDCE0085BEDB /* APIEndpointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */; };
@@ -76,6 +77,7 @@
 
 /* Begin PBXFileReference section */
 		1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
+		1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTests.swift; sourceTree = "<group>"; };
 		8B425C79281200DD0085BEDB /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		8B425C7B281200FA0085BEDB /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
@@ -87,7 +89,7 @@
 		8B425C922812088C0085BEDB /* CardResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResource.swift; sourceTree = "<group>"; };
 		8B425C9B28123FCC0085BEDB /* HttpViability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpViability.swift; sourceTree = "<group>"; };
 		8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
-		8B425C9F2812401A0085BEDB /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		8B425C9F2812401A0085BEDB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		8B425CA3281259FC0085BEDB /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		8B425CA7281374780085BEDB /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointsTests.swift; sourceTree = "<group>"; };
@@ -368,7 +370,8 @@
 		8B9C4B55280B8DBB00831752 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				8B425C9F2812401A0085BEDB /* CardViewModel.swift */,
+				8B425C9F2812401A0085BEDB /* MainViewModel.swift */,
+				1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -573,9 +576,10 @@
 				8B425C932812088C0085BEDB /* CardResource.swift in Sources */,
 				8B9C4B6F280C6E1500831752 /* Card.swift in Sources */,
 				8B425C822812019C0085BEDB /* Faction.swift in Sources */,
-				8B425CA02812401A0085BEDB /* CardViewModel.swift in Sources */,
+				8B425CA02812401A0085BEDB /* MainViewModel.swift in Sources */,
 				8B9C4B6B280B9DA300831752 /* DetailsViewController.swift in Sources */,
 				8B9C4B20280B877B00831752 /* MainViewController.swift in Sources */,
+				1066A9B52816C19D00BCAA1D /* DetailsViewModel.swift in Sources */,
 				8B425C84281201B70085BEDB /* Quality.swift in Sources */,
 				8B9C4B69280B9D2800831752 /* Extensions.swift in Sources */,
 				8B9C4B59280B900600831752 /* Play.swift in Sources */,

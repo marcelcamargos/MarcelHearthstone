@@ -1,27 +1,13 @@
 //
-//  CardViewModel.swift
+//  DetailsViewModel.swift
 //  MarcelHearthstone
 //
-//  Created by Marcel Gonçalves Viana Marins de Camargos on 21/04/22.
+//  Created by Marcel Camargos on 25/04/22.
 //
 
 import Foundation
 
-class CardViewModel {
-    
-    func callInfoApi(completion : @escaping (_ info: Info, _ error: String?) -> Void) {
-        
-        let cardResource = CardResource()
-        cardResource.getInfo() { (response, error) in
-            
-            if(error == nil && response != nil) {
-                completion(response ?? Info(), nil)
-            } else {
-                completion(response ?? Info(), error)
-            }
-        }
-    }
-    
+class DetailsViewModel {
     func callCardApi<T: Decodable>(resource: String, param: String, resultType: T.Type, completion : @escaping (_ result: T, _ error: String?) -> Void) {
         
         let cardResource = CardResource()
