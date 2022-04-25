@@ -16,10 +16,9 @@ struct APIEndpoints {
     
     static let infoURL: String = "https://omgvamp-hearthstone-v1.p.rapidapi.com/info"
     
-    let cardURL: String?
+    var cardURL: String = ""
     
     init(resource: String, param: String) {
-        
         self.cardURL = "https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/\(resource)/\(param)"
     }
 }

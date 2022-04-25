@@ -27,8 +27,8 @@ class CardResource
     
     func getCard<T: Decodable>(resource: String, param: String, resultType: T.Type, completion: @escaping (_ result: T?, _ error: String?) -> Void)
     {
-        print(APIEndpoints(resource: resource, param: param).cardURL!)
-        let request = NSMutableURLRequest(url: NSURL(string: APIEndpoints(resource: resource, param: param).cardURL!)! as URL,
+        print(APIEndpoints(resource: resource, param: param).cardURL)
+        let request = NSMutableURLRequest(url: NSURL(string: APIEndpoints(resource: resource, param: param).cardURL)! as URL,
                                                 cachePolicy: .useProtocolCachePolicy,
                                             timeoutInterval: 10.0)
         request.httpMethod = "GET"

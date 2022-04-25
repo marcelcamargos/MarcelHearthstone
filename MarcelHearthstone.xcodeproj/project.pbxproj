@@ -44,9 +44,6 @@
 		8B9C4B26280B877B00831752 /* MarcelHearthstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B24280B877B00831752 /* MarcelHearthstone.xcdatamodeld */; };
 		8B9C4B28280B877D00831752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B27280B877D00831752 /* Assets.xcassets */; };
 		8B9C4B2B280B877D00831752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9C4B29280B877D00831752 /* LaunchScreen.storyboard */; };
-		8B9C4B36280B877E00831752 /* MarcelHearthstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */; };
-		8B9C4B40280B877E00831752 /* MarcelHearthstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */; };
-		8B9C4B42280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */; };
 		8B9C4B59280B900600831752 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B58280B900600831752 /* Play.swift */; };
 		8B9C4B5D280B92F000831752 /* CollectionViewCellCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */; };
 		8B9C4B62280B979B00831752 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B60280B979B00831752 /* TableViewCell.swift */; };
@@ -118,10 +115,7 @@
 		8B9C4B2A280B877D00831752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9C4B2C280B877D00831752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneTests.swift; sourceTree = "<group>"; };
 		8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITests.swift; sourceTree = "<group>"; };
-		8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B9C4B58280B900600831752 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 		8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCardModel.swift; sourceTree = "<group>"; };
 		8B9C4B60280B979B00831752 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -160,32 +154,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1080EAE02814D5AE0016FAB3 /* ViewController */ = {
+		1066A9A728160C0500BCAA1D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B55280B8DBB00831752 /* ViewModel */,
+				8B9C4B56280B8DC700831752 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1066A9A828160C2500BCAA1D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1066A9AB28160CAD00BCAA1D /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1066A9A928160C2F00BCAA1D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1066A9AC28160DEB00BCAA1D /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1066A9AA28160C4D00BCAA1D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C87281202130085BEDB /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		1066A9AB28160CAD00BCAA1D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */,
+				8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */,
+				8B9C4B6E280C6E1500831752 /* Card.swift */,
+				8B425C79281200DD0085BEDB /* Info.swift */,
+				8B425C7B281200FA0085BEDB /* Classe.swift */,
+				8B425C7D281201210085BEDB /* SetX.swift */,
+				8B425C7F281201800085BEDB /* TypeX.swift */,
+				8B425C812812019C0085BEDB /* Faction.swift */,
+				8B425C83281201B70085BEDB /* Quality.swift */,
+				8B425C85281201D00085BEDB /* Race.swift */,
+				8B9C4B58280B900600831752 /* Play.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1066A9AC28160DEB00BCAA1D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C922812088C0085BEDB /* CardResource.swift */,
+				8B425CA7281374780085BEDB /* UIImageView.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		1066A9AD28160E8B00BCAA1D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B9C4B1B280B877B00831752 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1066A9AE28160F2100BCAA1D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1066A9B32816103800BCAA1D /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1066A9AF28160F2B00BCAA1D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1066A9B22816101100BCAA1D /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1066A9B028160F3500BCAA1D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		1066A9B128160F4D00BCAA1D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1066A9B22816101100BCAA1D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */,
 			);
-			path = ViewController;
+			path = View;
 			sourceTree = "<group>";
 		};
-		8B425C87281202130085BEDB /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				8B425C9B28123FCC0085BEDB /* HttpViability.swift */,
-				8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		8B425C912812086D0085BEDB /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				8B425C922812088C0085BEDB /* CardResource.swift */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		8B425CAB28144C720085BEDB /* Model */ = {
+		1066A9B32816103800BCAA1D /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 				8B425CB728144E960085BEDB /* ClasseTests.swift */,
@@ -196,19 +273,28 @@
 				8B8C33FA2814901700A94C39 /* QualityTests.swift */,
 				8B8C33FC2814903600A94C39 /* RaceTests.swift */,
 			);
-			path = Model;
+			path = Entities;
 			sourceTree = "<group>";
 		};
-		8B425CAC28144C790085BEDB /* Helpers */ = {
+		8B425C87281202130085BEDB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8B425C9B28123FCC0085BEDB /* HttpViability.swift */,
+				8B425C9D28123FEB0085BEDB /* APIEndpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8B425CAC28144C790085BEDB /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				8B425CAE28144CD00085BEDB /* Data+Extensions.swift */,
 				8B425CB028144D120085BEDB /* DecodableTestCase.swift */,
 			);
-			path = Helpers;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		8B425CAD28144C7F0085BEDB /* Data */ = {
+		8B425CAD28144C7F0085BEDB /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
 				8B425CB92814545E0085BEDB /* Info.json */,
@@ -219,15 +305,7 @@
 				8B425CD9281488DE0085BEDB /* Quality.json */,
 				8B425CDB281489000085BEDB /* Race.json */,
 			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		8B425CB228144D670085BEDB /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				8B425CA92813BDCE0085BEDB /* APIEndpointsTests.swift */,
-			);
-			path = Network;
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		8B9C4B0F280B877B00831752 = {
@@ -253,14 +331,12 @@
 		8B9C4B1A280B877B00831752 /* MarcelHearthstone */ = {
 			isa = PBXGroup;
 			children = (
-				8B425C912812086D0085BEDB /* Resource */,
-				8B425C87281202130085BEDB /* Service */,
-				8B9C4B57280B8FF500831752 /* Supporting Files */,
-				8B9C4B56280B8DC700831752 /* View */,
-				8B9C4B1F280B877B00831752 /* MainViewController.swift */,
-				8B9C4B6A280B9DA300831752 /* DetailsViewController.swift */,
-				8B9C4B55280B8DBB00831752 /* ViewModel */,
-				8B9C4B54280B8DB000831752 /* Model */,
+				1066A9AD28160E8B00BCAA1D /* Application */,
+				1066A9AA28160C4D00BCAA1D /* Infrastructure */,
+				1066A9A928160C2F00BCAA1D /* Data */,
+				1066A9A828160C2500BCAA1D /* Domain */,
+				1066A9A728160C0500BCAA1D /* Presentation */,
+				8B9C4B57280B8FF500831752 /* Common */,
 				8B9C4B27280B877D00831752 /* Assets.xcassets */,
 				8B9C4B29280B877D00831752 /* LaunchScreen.storyboard */,
 				8B9C4B2C280B877D00831752 /* Info.plist */,
@@ -272,12 +348,11 @@
 		8B9C4B34280B877E00831752 /* MarcelHearthstoneTests */ = {
 			isa = PBXGroup;
 			children = (
-				1080EAE02814D5AE0016FAB3 /* ViewController */,
-				8B425CB228144D670085BEDB /* Network */,
-				8B425CAD28144C7F0085BEDB /* Data */,
-				8B425CAC28144C790085BEDB /* Helpers */,
-				8B425CAB28144C720085BEDB /* Model */,
-				8B9C4B35280B877E00831752 /* MarcelHearthstoneTests.swift */,
+				1066A9B028160F3500BCAA1D /* Infrastructure */,
+				1066A9AF28160F2B00BCAA1D /* Presentation */,
+				1066A9AE28160F2100BCAA1D /* Domain */,
+				8B425CAD28144C7F0085BEDB /* Mocks */,
+				8B425CAC28144C790085BEDB /* Common */,
 			);
 			path = MarcelHearthstoneTests;
 			sourceTree = "<group>";
@@ -285,28 +360,9 @@
 		8B9C4B3E280B877E00831752 /* MarcelHearthstoneUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8B9C4B3F280B877E00831752 /* MarcelHearthstoneUITests.swift */,
-				8B9C4B41280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift */,
-				1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */,
+				1066A9B128160F4D00BCAA1D /* Presentation */,
 			);
 			path = MarcelHearthstoneUITests;
-			sourceTree = "<group>";
-		};
-		8B9C4B54280B8DB000831752 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */,
-				8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */,
-				8B9C4B6E280C6E1500831752 /* Card.swift */,
-				8B425C79281200DD0085BEDB /* Info.swift */,
-				8B425C7B281200FA0085BEDB /* Classe.swift */,
-				8B425C7D281201210085BEDB /* SetX.swift */,
-				8B425C7F281201800085BEDB /* TypeX.swift */,
-				8B425C812812019C0085BEDB /* Faction.swift */,
-				8B425C83281201B70085BEDB /* Quality.swift */,
-				8B425C85281201D00085BEDB /* Race.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8B9C4B55280B8DBB00831752 /* ViewModel */ = {
@@ -320,22 +376,21 @@
 		8B9C4B56280B8DC700831752 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8B9C4B1F280B877B00831752 /* MainViewController.swift */,
+				8B9C4B6A280B9DA300831752 /* DetailsViewController.swift */,
 				8B9C4B70280C6E6600831752 /* CardCollectionCell */,
 				8B9C4B5A280B902500831752 /* TableViewCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		8B9C4B57280B8FF500831752 /* Supporting Files */ = {
+		8B9C4B57280B8FF500831752 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				8B9C4B58280B900600831752 /* Play.swift */,
 				8B9C4B68280B9D2800831752 /* Extensions.swift */,
-				8B9C4B1B280B877B00831752 /* AppDelegate.swift */,
 				8B425CA3281259FC0085BEDB /* Loading.swift */,
-				8B425CA7281374780085BEDB /* UIImageView.swift */,
 			);
-			path = "Supporting Files";
+			path = Common;
 			sourceTree = "<group>";
 		};
 		8B9C4B5A280B902500831752 /* TableViewCell */ = {
@@ -546,7 +601,6 @@
 				8B8C33F92814900700A94C39 /* FactionTests.swift in Sources */,
 				8B425CB128144D120085BEDB /* DecodableTestCase.swift in Sources */,
 				8B425CB828144E960085BEDB /* ClasseTests.swift in Sources */,
-				8B9C4B36280B877E00831752 /* MarcelHearthstoneTests.swift in Sources */,
 				8B425CAA2813BDCE0085BEDB /* APIEndpointsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,8 +609,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9C4B42280B877E00831752 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */,
-				8B9C4B40280B877E00831752 /* MarcelHearthstoneUITests.swift in Sources */,
 				1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
