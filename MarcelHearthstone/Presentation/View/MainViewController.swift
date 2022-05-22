@@ -182,7 +182,6 @@ extension MainViewController: CollectionViewCellDelegate {
     func collectionView(collectionviewcell: CollectionViewCell?, index: Int, didTappedInTableViewCell: TableViewCell) {
         if let colorsRow = didTappedInTableViewCell.rowWithColors {
             self.tappedCell = colorsRow[index]
-
             let vc = DetailsViewController()
             vc.backgroundColor = tappedCell?.color
             vc.cardName = tappedCell?.cardName
