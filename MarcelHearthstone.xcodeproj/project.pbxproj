@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */; };
 		1066A9B52816C19D00BCAA1D /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */; };
 		1080EAE22814D5E80016FAB3 /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */; };
 		8B425C7A281200DD0085BEDB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C79281200DD0085BEDB /* Info.swift */; };
@@ -66,13 +65,6 @@
 			remoteGlobalIDString = 8B9C4B17280B877B00831752;
 			remoteInfo = MarcelHearthstone;
 		};
-		8B9C4B3C280B877E00831752 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B9C4B10280B877B00831752 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B9C4B17280B877B00831752;
-			remoteInfo = MarcelHearthstone;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -117,7 +109,6 @@
 		8B9C4B2A280B877D00831752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9C4B2C280B877D00831752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9C4B58280B900600831752 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 		8B9C4B5C280B92F000831752 /* CollectionViewCellCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCardModel.swift; sourceTree = "<group>"; };
 		8B9C4B60280B979B00831752 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -140,13 +131,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8B9C4B2E280B877E00831752 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B9C4B38280B877E00831752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +309,6 @@
 			children = (
 				8B9C4B18280B877B00831752 /* MarcelHearthstone.app */,
 				8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */,
-				8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -461,24 +444,6 @@
 			productReference = 8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8B9C4B3A280B877E00831752 /* MarcelHearthstoneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B9C4B4B280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */;
-			buildPhases = (
-				8B9C4B37280B877E00831752 /* Sources */,
-				8B9C4B38280B877E00831752 /* Frameworks */,
-				8B9C4B39280B877E00831752 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B9C4B3D280B877E00831752 /* PBXTargetDependency */,
-			);
-			name = MarcelHearthstoneUITests;
-			productName = MarcelHearthstoneUITests;
-			productReference = 8B9C4B3B280B877E00831752 /* MarcelHearthstoneUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -493,10 +458,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					8B9C4B30280B877E00831752 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 8B9C4B17280B877B00831752;
-					};
-					8B9C4B3A280B877E00831752 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 8B9C4B17280B877B00831752;
 					};
@@ -517,7 +478,6 @@
 			targets = (
 				8B9C4B17280B877B00831752 /* MarcelHearthstone */,
 				8B9C4B30280B877E00831752 /* MarcelHearthstoneTests */,
-				8B9C4B3A280B877E00831752 /* MarcelHearthstoneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -545,13 +505,6 @@
 				8B425CBC281454740085BEDB /* Classe.json in Resources */,
 				8B425CBA2814545E0085BEDB /* Info.json in Resources */,
 				8B425CD2281488810085BEDB /* SetX.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B9C4B39280B877E00831752 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,14 +562,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9C4B37280B877E00831752 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1066A9A62815A32800BCAA1D /* MainViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -624,11 +569,6 @@
 			isa = PBXTargetDependency;
 			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
 			targetProxy = 8B9C4B32280B877E00831752 /* PBXContainerItemProxy */;
-		};
-		8B9C4B3D280B877E00831752 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
-			targetProxy = 8B9C4B3C280B877E00831752 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -872,50 +812,6 @@
 			};
 			name = Release;
 		};
-		8B9C4B4C280B877E00831752 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJ76JV9X45;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MarcelHearthstone;
-			};
-			name = Debug;
-		};
-		8B9C4B4D280B877E00831752 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJ76JV9X45;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.marcelhearthstone.MarcelHearthstoneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MarcelHearthstone;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -942,15 +838,6 @@
 			buildConfigurations = (
 				8B9C4B49280B877E00831752 /* Debug */,
 				8B9C4B4A280B877E00831752 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B9C4B4B280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B9C4B4C280B877E00831752 /* Debug */,
-				8B9C4B4D280B877E00831752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
