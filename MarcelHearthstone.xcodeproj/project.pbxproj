@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1066A9B52816C19D00BCAA1D /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */; };
 		1080EAE22814D5E80016FAB3 /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */; };
+		10F68AF0283D7C2500C14401 /* MarcelHearthstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68AEF283D7C2500C14401 /* MarcelHearthstoneUITests.swift */; };
+		10F68AF2283D7C2500C14401 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F68AF1283D7C2500C14401 /* MarcelHearthstoneUITestsLaunchTests.swift */; };
+		849890BA34B4A9ADA059EDD5 /* Pods_MarcelHearthstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCDC2582FFFD172092C2DDB /* Pods_MarcelHearthstone.framework */; };
 		8B425C7A281200DD0085BEDB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C79281200DD0085BEDB /* Info.swift */; };
 		8B425C7C281200FA0085BEDB /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7B281200FA0085BEDB /* Classe.swift */; };
 		8B425C7E281201210085BEDB /* SetX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B425C7D281201210085BEDB /* SetX.swift */; };
@@ -55,9 +58,18 @@
 		8B9C4B6D280BA14E00831752 /* TableViewCellCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */; };
 		8B9C4B6F280C6E1500831752 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B6E280C6E1500831752 /* Card.swift */; };
 		8B9C4B76280CACB300831752 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C4B75280CACB300831752 /* CardCollectionViewCell.swift */; };
+		CBA3EFF4F1D2B3CDA19784B2 /* Pods_MarcelHearthstoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C46DFC2E84BE932B557C57 /* Pods_MarcelHearthstoneTests.framework */; };
+		E2318A281D6B3BF86B1496D3 /* Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0E395A6ABCA9C01F644466 /* Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		10F68AF3283D7C2500C14401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9C4B10280B877B00831752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9C4B17280B877B00831752;
+			remoteInfo = MarcelHearthstone;
+		};
 		8B9C4B32280B877E00831752 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8B9C4B10280B877B00831752 /* Project object */;
@@ -68,9 +80,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5DFE923DB2349712228183 /* Pods-MarcelHearthstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstone.debug.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstone/Pods-MarcelHearthstone.debug.xcconfig"; sourceTree = "<group>"; };
 		1066A9A52815A32800BCAA1D /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
 		1066A9B42816C19D00BCAA1D /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		1080EAE12814D5E80016FAB3 /* DetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTests.swift; sourceTree = "<group>"; };
+		10F68AED283D7C2500C14401 /* MarcelHearthstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcelHearthstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F68AEF283D7C2500C14401 /* MarcelHearthstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITests.swift; sourceTree = "<group>"; };
+		10F68AF1283D7C2500C14401 /* MarcelHearthstoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcelHearthstoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F0E395A6ABCA9C01F644466 /* Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C46DFC2E84BE932B557C57 /* Pods_MarcelHearthstoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarcelHearthstoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512A82E3B950C2B28C9E945A /* Pods-MarcelHearthstoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstoneTests.debug.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstoneTests/Pods-MarcelHearthstoneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B425C79281200DD0085BEDB /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		8B425C7B281200FA0085BEDB /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
 		8B425C7D281201210085BEDB /* SetX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetX.swift; sourceTree = "<group>"; };
@@ -120,13 +139,27 @@
 		8B9C4B6C280BA14E00831752 /* TableViewCellCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCardModel.swift; sourceTree = "<group>"; };
 		8B9C4B6E280C6E1500831752 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		8B9C4B75280CACB300831752 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		948A6CC38BF70BDFB56FE059 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstone-MarcelHearthstoneUITests.release.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstone-MarcelHearthstoneUITests/Pods-MarcelHearthstone-MarcelHearthstoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D73CE61FAB3792C4D73E4CA /* Pods-MarcelHearthstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstone.release.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstone/Pods-MarcelHearthstone.release.xcconfig"; sourceTree = "<group>"; };
+		A44C34D6425698359F8DFE48 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstone-MarcelHearthstoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstone-MarcelHearthstoneUITests/Pods-MarcelHearthstone-MarcelHearthstoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB624D80399B1DC55BD18829 /* Pods-MarcelHearthstoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarcelHearthstoneTests.release.xcconfig"; path = "Target Support Files/Pods-MarcelHearthstoneTests/Pods-MarcelHearthstoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCCDC2582FFFD172092C2DDB /* Pods_MarcelHearthstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarcelHearthstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10F68AEA283D7C2500C14401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2318A281D6B3BF86B1496D3 /* Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B9C4B15280B877B00831752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849890BA34B4A9ADA059EDD5 /* Pods_MarcelHearthstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,12 +167,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA3EFF4F1D2B3CDA19784B2 /* Pods_MarcelHearthstoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100B87E53D54CCE1F5A17C56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5DFE923DB2349712228183 /* Pods-MarcelHearthstone.debug.xcconfig */,
+				9D73CE61FAB3792C4D73E4CA /* Pods-MarcelHearthstone.release.xcconfig */,
+				A44C34D6425698359F8DFE48 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.debug.xcconfig */,
+				948A6CC38BF70BDFB56FE059 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.release.xcconfig */,
+				512A82E3B950C2B28C9E945A /* Pods-MarcelHearthstoneTests.debug.xcconfig */,
+				AB624D80399B1DC55BD18829 /* Pods-MarcelHearthstoneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1066A9A728160C0500BCAA1D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +310,25 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		10F68AEE283D7C2500C14401 /* MarcelHearthstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10F68AEF283D7C2500C14401 /* MarcelHearthstoneUITests.swift */,
+				10F68AF1283D7C2500C14401 /* MarcelHearthstoneUITestsLaunchTests.swift */,
+			);
+			path = MarcelHearthstoneUITests;
+			sourceTree = "<group>";
+		};
+		427698A750FDE79C6E48AD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCCDC2582FFFD172092C2DDB /* Pods_MarcelHearthstone.framework */,
+				2F0E395A6ABCA9C01F644466 /* Pods_MarcelHearthstone_MarcelHearthstoneUITests.framework */,
+				34C46DFC2E84BE932B557C57 /* Pods_MarcelHearthstoneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B425C87281202130085BEDB /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,7 +367,10 @@
 				8B9C4B1A280B877B00831752 /* MarcelHearthstone */,
 				8B9C4B34280B877E00831752 /* MarcelHearthstoneTests */,
 				8B9C4B3E280B877E00831752 /* MarcelHearthstoneUITests */,
+				10F68AEE283D7C2500C14401 /* MarcelHearthstoneUITests */,
 				8B9C4B19280B877B00831752 /* Products */,
+				100B87E53D54CCE1F5A17C56 /* Pods */,
+				427698A750FDE79C6E48AD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -309,6 +379,7 @@
 			children = (
 				8B9C4B18280B877B00831752 /* MarcelHearthstone.app */,
 				8B9C4B31280B877E00831752 /* MarcelHearthstoneTests.xctest */,
+				10F68AED283D7C2500C14401 /* MarcelHearthstoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -409,13 +480,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10F68AEC283D7C2500C14401 /* MarcelHearthstoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F68AF7283D7C2500C14401 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */;
+			buildPhases = (
+				5F768D19C179C42E3640E1C3 /* [CP] Check Pods Manifest.lock */,
+				10F68AE9283D7C2500C14401 /* Sources */,
+				10F68AEA283D7C2500C14401 /* Frameworks */,
+				10F68AEB283D7C2500C14401 /* Resources */,
+				2AA73A8D529725CA51479153 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F68AF4283D7C2500C14401 /* PBXTargetDependency */,
+			);
+			name = MarcelHearthstoneUITests;
+			productName = MarcelHearthstoneUITests;
+			productReference = 10F68AED283D7C2500C14401 /* MarcelHearthstoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8B9C4B17280B877B00831752 /* MarcelHearthstone */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9C4B45280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstone" */;
 			buildPhases = (
+				CDA2087D9B018799AB111682 /* [CP] Check Pods Manifest.lock */,
 				8B9C4B14280B877B00831752 /* Sources */,
 				8B9C4B15280B877B00831752 /* Frameworks */,
 				8B9C4B16280B877B00831752 /* Resources */,
+				47512CA0F6C63E80EA6A14F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -430,6 +523,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9C4B48280B877E00831752 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneTests" */;
 			buildPhases = (
+				F61C766C48F99E43C8FCED8A /* [CP] Check Pods Manifest.lock */,
 				8B9C4B2D280B877E00831752 /* Sources */,
 				8B9C4B2E280B877E00831752 /* Frameworks */,
 				8B9C4B2F280B877E00831752 /* Resources */,
@@ -451,9 +545,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					10F68AEC283D7C2500C14401 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B9C4B17280B877B00831752;
+					};
 					8B9C4B17280B877B00831752 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -478,11 +576,19 @@
 			targets = (
 				8B9C4B17280B877B00831752 /* MarcelHearthstone */,
 				8B9C4B30280B877E00831752 /* MarcelHearthstoneTests */,
+				10F68AEC283D7C2500C14401 /* MarcelHearthstoneUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10F68AEB283D7C2500C14401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B9C4B16280B877B00831752 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,7 +616,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AA73A8D529725CA51479153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone-MarcelHearthstoneUITests/Pods-MarcelHearthstone-MarcelHearthstoneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone-MarcelHearthstoneUITests/Pods-MarcelHearthstone-MarcelHearthstoneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone-MarcelHearthstoneUITests/Pods-MarcelHearthstone-MarcelHearthstoneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47512CA0F6C63E80EA6A14F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone/Pods-MarcelHearthstone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone/Pods-MarcelHearthstone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarcelHearthstone/Pods-MarcelHearthstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F768D19C179C42E3640E1C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarcelHearthstone-MarcelHearthstoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA2087D9B018799AB111682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarcelHearthstone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61C766C48F99E43C8FCED8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarcelHearthstoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		10F68AE9283D7C2500C14401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F68AF2283D7C2500C14401 /* MarcelHearthstoneUITestsLaunchTests.swift in Sources */,
+				10F68AF0283D7C2500C14401 /* MarcelHearthstoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B9C4B14280B877B00831752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,6 +783,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		10F68AF4283D7C2500C14401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
+			targetProxy = 10F68AF3283D7C2500C14401 /* PBXContainerItemProxy */;
+		};
 		8B9C4B33280B877E00831752 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8B9C4B17280B877B00831752 /* MarcelHearthstone */;
@@ -584,6 +807,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10F68AF5283D7C2500C14401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44C34D6425698359F8DFE48 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ76JV9X45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.MarcelHearthstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarcelHearthstone;
+			};
+			name = Debug;
+		};
+		10F68AF6283D7C2500C14401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948A6CC38BF70BDFB56FE059 /* Pods-MarcelHearthstone-MarcelHearthstoneUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ76JV9X45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.MarcelHearthstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarcelHearthstone;
+			};
+			name = Release;
+		};
 		8B9C4B43280B877E00831752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -704,6 +975,7 @@
 		};
 		8B9C4B46280B877E00831752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5DFE923DB2349712228183 /* Pods-MarcelHearthstone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -735,6 +1007,7 @@
 		};
 		8B9C4B47280B877E00831752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D73CE61FAB3792C4D73E4CA /* Pods-MarcelHearthstone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -766,6 +1039,7 @@
 		};
 		8B9C4B49280B877E00831752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512A82E3B950C2B28C9E945A /* Pods-MarcelHearthstoneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -790,6 +1064,7 @@
 		};
 		8B9C4B4A280B877E00831752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB624D80399B1DC55BD18829 /* Pods-MarcelHearthstoneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -815,6 +1090,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10F68AF7283D7C2500C14401 /* Build configuration list for PBXNativeTarget "MarcelHearthstoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F68AF5283D7C2500C14401 /* Debug */,
+				10F68AF6283D7C2500C14401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B9C4B13280B877B00831752 /* Build configuration list for PBXProject "MarcelHearthstone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
